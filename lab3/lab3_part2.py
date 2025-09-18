@@ -10,5 +10,5 @@ elif score >= 60:
     print("Grade = D")
 else:
     print("Grade = F")
-if input=100 
-   print(Perfect score!)
+if score == 100:
+    print("Prefect score")
