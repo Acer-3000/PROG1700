@@ -11,6 +11,6 @@ if user == "student":
             print("Access granted.")
         else:
             print("Wrong password.")
-#else:
-    #print("Unknown user")
+else:
+    print("Unknown user") 
     
