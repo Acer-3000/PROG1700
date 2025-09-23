@@ -1,8 +1,10 @@
-age = input("age")
-input("under 13")
+age = input("Age in years")
+if age < 5:
+    print("Free Ticket")
+elif age >= 5 and age <= 12:
+    print("Fee is $8")
+elif age >= 13 and age <= 65:
+    print("Fee is $12")
+else:
+    Print("Fee is $6")
 
-age < 5 = ticket = 0
-age = (6-12) = ticket = 8
-age > (13-64) = ticket = 12
-age > 65 = ticket = 6
-age = (13-6) = ticket =  
