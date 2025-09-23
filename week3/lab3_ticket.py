@@ -5,7 +5,7 @@ elif age >= 5 and age <= 12:
     print("Fee is $8")    
 elif age >= 13 and age <= 64:
     print("Fee is $12")
-else:
+elif age >= 66:
     print("Fee is $6")
-
-
+if age >= 13 and age >= 5:
+    print("Student dicount of $2")
