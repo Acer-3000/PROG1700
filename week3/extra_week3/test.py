@@ -1,19 +1,18 @@
-pin = input("Enter PIN ") == "4321"
-if not pin:
-    print("Wrong PIN")
-    pin = input("Enter PIN ") == "4321" 
-if pin: 
-    options = input("Balance, Withdraw, Deposit: ")
-if options == "Balance":
-    print("Your balance is $500") 
-elif options == "Withdraw":
-    amount = int(input("Enter amount to withdraw: "))
-if amount > 500:
-    print("Insufficient funds")
-else:
-    print(f"You have withdrawn ${amount}")
-    print(f"Your new balance is ${500 - amount}")
-if options == "Deposit":
-    amount = (input("Enter amount to Deposit: "))
-    print(f"You have Deposited ${amount}")
-    print(f"Your new balance is ${500 + amount}")
+age = int(input("Age in years ")) 
+student = (input("Are you Student? (y/n) "))
+
+if age < 5:
+    print("Free Ticket")
+elif age >= 5 and age <= 12:
+     if student == "y":
+        print("Fee is $6")
+     else:
+        print("Fee is $8")
+elif age >= 13 and age <= 64:
+     if student == "y":
+        print("Fee is $10")
+     else:
+        print("Fee is $12")
+else: 
+    age >= 65
+    print("Fee is $6")
